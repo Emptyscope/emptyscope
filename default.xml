@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <manifest>
-     <remote name="github" fetch="https://github.com"/>
-     <default revision="master" remote="github" sync-j="4"/>
-     <project name="Emptyscope/emptyscope" remote="github" path="emptyscope"/>
-     <project name="Emptyscope/ui-assets" remote="github" path="ui-assets"/>
-     <project name="Emptyscope/website" remote="github" path="website"/>
+     <remote name="upstream" fetch="https://github.com"/>
+     <default revision="master" remote="upstream" sync-j="4"/>
+     <project name="Emptyscope/emptyscope" remote="upstream" path="emptyscope"/>
+     <project name="Emptyscope/ui-assets" remote="upstream" path="ui-assets"/>
+     <project name="Emptyscope/website" remote="upstream" path="website"/>
  </manifest>
